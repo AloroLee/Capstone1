@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+}
+.how label{
+    display: block;
+}
+.card{
+    display: block;
+}
