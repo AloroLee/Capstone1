@@ -5,6 +5,27 @@ body {
 .para{
     text-align: center;
 }
+.middlelinks{
+    text-align: center;
+    margin: 0%;
+}
+.middlelinks ul{
+    padding: 0%;
+}
+.middlelinks li{
+    margin: 0%;
+
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+.middlelinks button{
+    min-width: 10rem;
+}
+.carousel{
+    width: 50%;
+    margin: auto;
+}
 
 .card{
     display: block;
@@ -40,6 +61,7 @@ body {
 .form-group{
     margin-top: 1rem;
     display: block;
+    text-align: center;
 }
 
 #log{
@@ -72,4 +94,18 @@ body {
 #headerlogo{
     height: 60px;
 }
-
+#co{
+    text-align: center;
+    margin-top: 4%;
+}
+.options{
+    text-align: center;
+    margin-top: 4%;
+}
+.option{
+    text-align: center;
+    margin-top: 2%;
+}
+.container-fluid{
+    background-color: rgb(121, 74, 74);
+}
