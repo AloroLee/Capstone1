@@ -1,104 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">DANFO</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="register.html">Register</a>
-                  </li>
-                  <li class="nav-item"></li>
-                    <a class="nav-link" href="login.html">Login</a>
-                  </li>
-                  <li class="nav-item"></li>
-                    <a class="nav-link" href="checkout.html">Check-Out</a>
-                  </li>
-                  <li class="nav-item">
-              </div>
+                <a class="navbar-brand" href="#">DANFO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link" href="checkout.html">Check-Out</a>
+                        </li>
+                        <li class="nav-item">
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <div class="container">
         <h3 id="checkout">Check Out</h3>
         <hr>
         <h3>Payment Information</h3>
         <label id="info">Name on card:</label>
-        <input type="text" name="Card-name" id="Card-name" maxlength="50" required>
+        <input class="info" type="text" name="Card-name" id="Card-name" maxlength="50" required>
         <label id="info">Card Number:</label>
-        <input type="text" name="Card-number" id="Card-number" minlength="8" maxlength="50" required>
+        <input class="info" type="text" name="Card-number" id="Card-number" minlength="8" maxlength="50" required>
         <label id="info">Expiry Date:</label>
-        <input placeholder="MM/YY" type="text" id="expiry-date" name="expiry-date"  required>
+        <input class="info" placeholder="MM/YY" type="text" id="expiry-date" name="expiry-date" required>
         <label id="info">CVV:</label>
-        <input type="text" id="cvv" name="cvv" required>
+        <input class="info" type="text" id="cvv" name="cvv" required>
         <label id="info">Full Name:</label>
-        <input type="text" id="full-name" name="full-name" required>
+        <input class="info" type="text" id="full-name" name="full-name" required>
         <label id="info">Shipping Address:</label>
-        <input type="text" id="address" name="address" required>
+        <input class="info" type="text" id="address" name="address" required>
         <label id="info">City:</label>
-        <input type="text" id="city" name="city" required>
+        <input class="info" type="text" id="city" name="city" required>
         <label id="info">State/Province:</label>
-        <input type="text" id="state" name="state" required>
+        <input class="info" type="text" id="state" name="state" required>
         <label id="info">Zip/Postal Code:</label>
-        <input type="text" id="zip-code" name="zip-code" required>
+        <input class="info" type="text" id="zip-code" name="zip-code" required>
         <label id="info">Country:</label>
-        <select id="country" name="country" required>
+        <select class="info" id="country" name="country" required>
             <option value="">Select your country</option>
             <option value="NIG">Nigeria</option>
         </select>
-        <div id="Summary">
-            <h3>Order Summary</h3>
-            <table>
-                <tr>
-                    <th>Quality</th>
-                    <th>description</th>
-                    <th>price</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Danfo-2 Freestyle Bicycle</td>
-                    <td>$235.00</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Gladiator2 Mointain Bike</td>
-                    <td>$120.00</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Danfo Hybrid Road Bike</td>
-                    <td>$250.00</td>
-                </tr>
-                <tr>
-                    <th>Total</th>
-                    <td></td>
-                    <th>$605.00</th>
-                </tr>
-            </table>
-        </div>
+    </div>
+    <div id="Summary">
+        <h3>Order Summary</h3>
+        <table>
+            <tr>
+                <th>Quality</th>
+                <th>description</th>
+                <th>price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Danfo-2 Freestyle Bicycle</td>
+                <td>$235.00</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Gladiator2 Mointain Bike</td>
+                <td>$120.00</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Danfo Hybrid Road Bike</td>
+                <td>$250.00</td>
+            </tr>
+            <tr>
+                <th>Total</th>
+                <td></td>
+                <th>$605.00</th>
+            </tr>
+        </table>
+    </div>
 
-        <div>
-            <input id="co" type="submit" value="Check-Out" class="checkout btn btn-primary">
-        </div>
+    <div>
+        <input id="co" type="submit" value="Check-Out" class="checkout btn btn-primary">
     </div>
 </body>
+
 </html>

@@ -54,7 +54,13 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.info{
+    width: 100%;
+}
+#Summary table{
+    width: 75%;
+    margin: auto;
+}
 #info{
     display: block;
     margin-bottom: 5px;
@@ -62,5 +68,8 @@ body {
 
 #checkout{
     text-align: center;
+}
+#headerlogo{
+    height: 60px;
 }
 
