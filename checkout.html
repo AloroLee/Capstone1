@@ -38,38 +38,67 @@
             </div>
           </nav>
     </header>
-    <h1>Check Out</h1>
-    <div id="delivery">
-        <input type="text" name="who" id="who">
+    <div class="container">
+        <h3 id="checkout">Check Out</h3>
+        <hr>
+        <h3>Payment Information</h3>
+        <label id="info">Name on card:</label>
+        <input type="text" name="Card-name" id="Card-name" maxlength="50" required>
+        <label id="info">Card Number:</label>
+        <input type="text" name="Card-number" id="Card-number" minlength="8" maxlength="50" required>
+        <label id="info">Expiry Date:</label>
+        <input placeholder="MM/YY" type="text" id="expiry-date" name="expiry-date"  required>
+        <label id="info">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+        <label id="info">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+        <label id="info">Shipping Address:</label>
+        <input type="text" id="address" name="address" required>
+        <label id="info">City:</label>
+        <input type="text" id="city" name="city" required>
+        <label id="info">State/Province:</label>
+        <input type="text" id="state" name="state" required>
+        <label id="info">Zip/Postal Code:</label>
+        <input type="text" id="zip-code" name="zip-code" required>
+        <label id="info">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="NIG">Nigeria</option>
+        </select>
+        <div id="Summary">
+            <h3>Order Summary</h3>
+            <table>
+                <tr>
+                    <th>Quality</th>
+                    <th>description</th>
+                    <th>price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Danfo-2 Freestyle Bicycle</td>
+                    <td>$235.00</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Gladiator2 Mointain Bike</td>
+                    <td>$120.00</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Danfo Hybrid Road Bike</td>
+                    <td>$250.00</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <td></td>
+                    <th>$605.00</th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <input id="co" type="submit" value="Check-Out" class="checkout btn btn-primary">
+        </div>
     </div>
-    <div id="cart">
-        <table>
-            <tr>
-                <th>qty</th>
-                <th>desc</th>
-                <th>price each</th>
-                <th>ext price</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>hug</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>hug</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>hug</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-        </table>
-    </div>
-    <button id="checkout">Chect Out</button>
 </body>
 </html>

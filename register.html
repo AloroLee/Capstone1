@@ -37,21 +37,57 @@
               </div>
             </div>
           </nav>
-    </header>
+    </header><br>
     <div class="register">
-      <h1>Register</h1>
+      <h1 id="R">Register</h1>
       <hr>
-          <input placeholder="username" type="text" name="username" class="username" id="username" min="3" max="50">
-          <input placeholder="password" type="password" name="password" class="password" id="password" min="9" max="45">
-          <input placeholder="confirm" type="password" name="password2" class="password" id="password2">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label" minlength="3" maxlength="50">Email:</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label" minlength="3" maxlength="30">Password:</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label" minlength="3" maxlength="30">Confirm Password:</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address:</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2:</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City:</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State:</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip:</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </form><br>
           <h4>How did you hear about us?</h4>
-      <div class="how">
+      <div class="radi">
           <label><input type="radio" name="how" value="google">Google</label>
           <label><input type="radio" name="how" value="friend">Friend</label>
           <label><input type="radio" name="how" value="colleague">Colleague</label>
       </div>
 
-        <div id="registerButton">Register</div>
+      <div id="R"><br>
+        <button type="submit" class="btn btn-primary">Create Account</button>
+      </div>
     </div>
 </body>
 </html>

@@ -1,9 +1,66 @@
 body {
-    background-color: aqua;
+    background-color:white;
 }
-.how label{
-    display: block;
+
+.para{
+    text-align: center;
 }
+
 .card{
     display: block;
+    margin-bottom: 5px;
 }
+
+.register{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.radi label{
+    display: block;
+}
+
+#R{
+    text-align: center;
+}
+
+.login{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group{
+    margin-top: 1rem;
+    display: block;
+}
+
+#log{
+    text-align: center;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#info{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#checkout{
+    text-align: center;
+}
+
