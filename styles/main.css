@@ -80,8 +80,8 @@ body {
     width: 100%;
 }
 #Summary table{
-    width: 75%;
-    margin: auto;
+    width: 50%;
+    margin: 20px auto;
 }
 #info{
     display: block;
@@ -107,5 +107,5 @@ body {
     margin-top: 2%;
 }
 .container-fluid{
-    background-color: rgb(121, 74, 74);
+    background-color: #ffffff;
 }
