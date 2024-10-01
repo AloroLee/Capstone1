@@ -30,8 +30,10 @@ body {
 }
 
 .card{
-    display: block;
-    margin-bottom: 5px;
+    display: inline-block;
+    margin: 5px;
+    min-height: 60vh;
+    vertical-align: top;
 }
 
 .register{
@@ -113,4 +115,40 @@ body {
 }
 .container-fluid{
     background-color: #ffffff;
+}
+.resetpassword{
+    display: block;
+    text-align: center;
+    max-width: 479px;
+    margin: 100px auto;
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resetpassword p{
+    color: rgb(128, 119, 119);
+}
+.resetpassword input{
+    margin: 3%;
+}
+
+.container-fluid{
+    background-color: black;
+}
+.nav-link{
+    color: #ffffff;
+}
+.nav-link:hover {
+    color: #ffffff;
+  }
+.navbar-toggler{
+    color: rgb(62, 62, 69);
+}
+#R{
+    text-align: center;
+}
+.register h1{
+    text-align: center;
 }
