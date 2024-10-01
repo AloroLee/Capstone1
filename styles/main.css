@@ -5,6 +5,9 @@ body {
 .para{
     text-align: center;
 }
+.bullet ul{
+    padding-inline-start: 45%;
+}
 .middlelinks{
     text-align: center;
     margin: 0%;
@@ -14,7 +17,6 @@ body {
 }
 .middlelinks li{
     margin: 0%;
-
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
@@ -45,7 +47,7 @@ body {
     display: block;
 }
 
-#R{
+.Register h1{
     text-align: center;
 }
 
@@ -73,11 +75,14 @@ body {
     margin: 20px auto;
     background-color: #ffffff00;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .info{
     width: 100%;
+}
+#Summary h3{
+    padding-inline-start: 200px;
 }
 #Summary table{
     width: 50%;
