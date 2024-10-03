@@ -2,7 +2,7 @@
 
 <b>Synopsis<b>
 
-This project is a e-commerce platform built primarily for selling bicycles and bicycle accessories. The webpage is designed to allow users to browse through different catalogues of bicycles, view product descriptions, add products to cart, and complete purchase securely. It is a platform includes management system to securely manage customers information. 
+<p>This project is a e-commerce platform built primarily for selling bicycles and bicycle accessories. The webpage is designed to allow users to browse through different catalogues of bicycles, view product descriptions, add products to cart, and complete purchase securely. It is a platform includes management system to securely manage customers information.</p>
 
 <b>Features<b>
 <ul>
@@ -11,6 +11,7 @@ This project is a e-commerce platform built primarily for selling bicycles and b
     <li>Search bar: To easily search for desired products.</li>
     <li>Forms: Input for user information.</li>
     <li>Cards: Bootstrap cards to present product for quality.</li>
+    <li>Video tags: Used a video tag to add a biking gif to the homepage.</li>
 </ul>
 
 <b>Used Technologies<b>
@@ -21,4 +22,14 @@ This project is a e-commerce platform built primarily for selling bicycles and b
     <li>W3C Validator</li>
 </ul>
 
-![Alt text](./images/screenshots/valid1.png)
+<p>Screenshots of my platform.</p>
+
+![Alt""](./images/screenshots/homepage.png)
+![Alt""](./images/screenshots/products.png)
+![Alt""](./images/screenshots/register.png)
+![Alt""](./images/screenshots/login.png)
+![Alt""](./images/screenshots/checkout.png)
+
+<p>Screenshot of W3C to validate my html</p>
+
+![Alt""](./images/screenshots/valid1.png)
