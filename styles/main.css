@@ -113,6 +113,10 @@ body {
     text-align: center;
     margin-top: 2%;
 }
+.remember{
+    text-align: center;
+    margin-top: 1%;
+}
 .container-fluid{
     background-color: #ffffff;
 }
