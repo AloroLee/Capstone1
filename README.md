@@ -10,6 +10,7 @@ This project is a e-commerce platform built primarily for selling bicycles and b
     <li>links: For users to navigate through the platform within pages.</li>
     <li>Search bar: To easily search for desired products.</li>
     <li>Forms: Input for user information.</li>
+    <li>Cards: Bootstrap cards to present product for quality.</li>
 </ul>
 
 <b>Used Technologies<b>
