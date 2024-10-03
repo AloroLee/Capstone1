@@ -5,9 +5,13 @@ body {
 .para{
     text-align: center;
 }
-.bullet ul{
-    padding-inline-start: 45%;
-}
+.bullet{
+    text-align: center;
+    }
+ul.myUL {
+        display: inline-block;
+        text-align: left;
+    }
 .middlelinks{
     text-align: center;
     margin: 0%;
@@ -84,7 +88,7 @@ body {
     width: 100%;
 }
 #Summary h3{
-    padding-inline-start: 200px;
+    text-align: center;
 }
 #Summary table{
     width: 50%;
