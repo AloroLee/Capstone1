@@ -20,6 +20,7 @@
     <li>CSS</li>
     <li>Bootstrap@5.3.3</li>
     <li>W3C Validator</li>
+    <li>W3Schools</li>
 </ul>
 
 <p>Screenshots of my platform.</p>
