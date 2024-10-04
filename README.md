@@ -29,6 +29,7 @@
 ![Alt""](./images/screenshots/register.png)
 ![Alt""](./images/screenshots/login.png)
 ![Alt""](./images/screenshots/checkout.png)
+![Alt""](./images/screenshots/forgetpassword.png)
 
 <p>Screenshot of W3C to validate my html</p>
 
